@@ -14,11 +14,13 @@ WEB SCRAPPING CFRs EU/
 │   ├── Richard Lawson - Web Scraping with Python.pdf
 │   └── WebScrapping.pdf
 │
-|── 1. Scripts/src/                                         # Código fuente del proyecto
-│   ├── main.py                                            # Script principal que coordina el scraping 
-│   ├── scrapping_CFRs_EU-ESP.ipynb   # Notebook scraping EU - ESP
-│   ├── scrapping_fleet_ESP.py                # Scrapping información del registro español
-│   └── scrapping_fleet_EU.py                  # Scrapping información del registro europeo
+|── 1. Scripts
+│   └── src/                                                   # Código fuente del proyecto
+|        └── main.py                                            # Script principal que coordina el scraping 
+|   	└── scrapping_fleet_ESP.py                # Scrapping información del registro español
+│        └──scrapping_fleet_EU.py                  # Scrapping información del registro europeo
+│   └── notebook/                                            # Notebooks
+	└── scrapping_CFRs_EU-ESP.ipynb   # Notebook scraping EU - ESP
 │
 |── 3. Enunciado PR 1/                                 # Enunciado de la práctica
 │   └── M2.851_20242_Practica1.pdf
