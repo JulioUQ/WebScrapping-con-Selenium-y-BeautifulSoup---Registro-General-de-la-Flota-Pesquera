@@ -9,37 +9,37 @@ Este proyecto utiliza Selenium, Requests y BeautifulSoup para automatizar la ext
 
 WEB SCRAPPING CFRs EU/  
 │  
-|── 0. Teoria/                            # Documentación teórica y libros de referencia  
+|── 0. Teoria/                            
 │   ├── M2.851_GuiaAprendizaje_Bloque2.pdf  
 │   ├── Richard Lawson - Web Scraping with Python.pdf  
 │   └── WebScrapping.pdf  
 │  
 |── 1. Scripts  
-│   └── src/                                                   # Código fuente del proyecto  
-|        └── main.py                                            # Script principal que coordina el scraping   
-|   	└── scrapping_fleet_ESP.py                # Scrapping información del registro español  
-│        └──scrapping_fleet_EU.py                  # Scrapping información del registro europeo  
-│   └── notebook/                                            # Notebooks  
-	└── scrapping_CFRs_EU-ESP.ipynb   # Notebook scraping EU - ESP  
+│   └── src/                                                   
+|        └── main.py                                           
+|   	└── scrapping_fleet_ESP.py               
+│        └──scrapping_fleet_EU.py                  
+│   └── notebook/                                          
+	└── scrapping_CFRs_EU-ESP.ipynb   
 │  
-|── 3. Enunciado PR 1/                                 # Enunciado de la práctica  
+|── 3. Enunciado PR 1/                                
 │   └── M2.851_20242_Practica1.pdf  
 │  
-|── 4. Solucion/                                             # Carpeta de entregables y resultados  
-│   ├── data/                                                  # Datos obtenidos tras el scraping  
+|── 4. Solucion/                                             
+│   ├── data/                                                  
 │       └── resultados_fleet.csv  
-│   └── memoria/                                           # Memoria del proyecto  
+│   └── memoria/                                           
 │       └── PR1_Ubeda_Quesada_Julio-Zamora_Vera_Lucas.pdf  
 │  
-|── 5. Literatura/                                             # Artículos y documentación adicional  
+|── 5. Literatura/                                             
 │   └── Dialnet-ExpansionYModernizacionDeLaFlotaPesquera.pdf  
 │  
-|── 6. Figura y graficos/                                 # Imágenes y recursos gráficos  
+|── 6. Figura y graficos/                                
 │   └── openart-image_IBbRrax9_174290720241...  
 │  
-|── LICENSE.txt                                             # Licencia del proyecto  
-|── README.md                                            # Descripción general del proyecto  
-|── requirements.txt                                      # Dependencias necesarias para ejecutar los scripts  
+|── LICENSE.txt                                            
+|── README.md                                          
+|── requirements.txt                                      
   
 
 ## Uso
